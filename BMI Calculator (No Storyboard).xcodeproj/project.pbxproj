@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3BE3BA280878E200B9DBEF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE3B9280878E200B9DBEF /* ResultViewController.swift */; };
+		1A3BE3BF2808B6E500B9DBEF /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE3BE2808B6E500B9DBEF /* BMI.swift */; };
+		1A3BE3C22808B83000B9DBEF /* BMIBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BE3C12808B83000B9DBEF /* BMIBrain.swift */; };
 		1AD2B611280725D2000803DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B610280725D2000803DB /* AppDelegate.swift */; };
-		1AD2B613280725D2000803DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B612280725D2000803DB /* SceneDelegate.swift */; };
 		1AD2B615280725D2000803DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B614280725D2000803DB /* ViewController.swift */; };
-		1AD2B618280725D2000803DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD2B616280725D2000803DB /* Main.storyboard */; };
 		1AD2B61A280725D4000803DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD2B619280725D4000803DB /* Assets.xcassets */; };
 		1AD2B61D280725D4000803DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD2B61B280725D4000803DB /* LaunchScreen.storyboard */; };
+		45D73FB2055BE050E67B8375 /* Pods_BMI_Calculator__No_Storyboard_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324CABCEC2BBA014C6C4D4BE /* Pods_BMI_Calculator__No_Storyboard_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3BE3B9280878E200B9DBEF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		1A3BE3BE2808B6E500B9DBEF /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		1A3BE3C12808B83000B9DBEF /* BMIBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIBrain.swift; sourceTree = "<group>"; };
 		1AD2B60D280725D2000803DB /* BMI Calculator (No Storyboard).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator (No Storyboard).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD2B610280725D2000803DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AD2B612280725D2000803DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1AD2B614280725D2000803DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1AD2B617280725D2000803DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AD2B619280725D4000803DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD2B61C280725D4000803DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD2B61E280725D4000803DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324CABCEC2BBA014C6C4D4BE /* Pods_BMI_Calculator__No_Storyboard_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMI_Calculator__No_Storyboard_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6FF2E42FC190AC094DC065 /* Pods-BMI Calculator (No Storyboard).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMI Calculator (No Storyboard).release.xcconfig"; path = "Target Support Files/Pods-BMI Calculator (No Storyboard)/Pods-BMI Calculator (No Storyboard).release.xcconfig"; sourceTree = "<group>"; };
+		E008FA657E85EDD54C77721F /* Pods-BMI Calculator (No Storyboard).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMI Calculator (No Storyboard).debug.xcconfig"; path = "Target Support Files/Pods-BMI Calculator (No Storyboard)/Pods-BMI Calculator (No Storyboard).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D73FB2055BE050E67B8375 /* Pods_BMI_Calculator__No_Storyboard_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A3BE3BB280878F900B9DBEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD2B614280725D2000803DB /* ViewController.swift */,
+				1A3BE3B9280878E200B9DBEF /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A3BE3C02808B6F500B9DBEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A3BE3BE2808B6E500B9DBEF /* BMI.swift */,
+				1A3BE3C12808B83000B9DBEF /* BMIBrain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1AD2B604280725D2000803DB = {
 			isa = PBXGroup;
 			children = (
 				1AD2B60F280725D2000803DB /* BMI Calculator (No Storyboard) */,
 				1AD2B60E280725D2000803DB /* Products */,
+				9537CE96DBD5AF99BDE39493 /* Pods */,
+				8A4C31C265F41EED03A41DE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +84,30 @@
 			isa = PBXGroup;
 			children = (
 				1AD2B610280725D2000803DB /* AppDelegate.swift */,
-				1AD2B612280725D2000803DB /* SceneDelegate.swift */,
-				1AD2B614280725D2000803DB /* ViewController.swift */,
-				1AD2B616280725D2000803DB /* Main.storyboard */,
-				1AD2B619280725D4000803DB /* Assets.xcassets */,
+				1A3BE3BB280878F900B9DBEF /* Controller */,
+				1A3BE3C02808B6F500B9DBEF /* Models */,
 				1AD2B61B280725D4000803DB /* LaunchScreen.storyboard */,
+				1AD2B619280725D4000803DB /* Assets.xcassets */,
 				1AD2B61E280725D4000803DB /* Info.plist */,
 			);
 			path = "BMI Calculator (No Storyboard)";
+			sourceTree = "<group>";
+		};
+		8A4C31C265F41EED03A41DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				324CABCEC2BBA014C6C4D4BE /* Pods_BMI_Calculator__No_Storyboard_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9537CE96DBD5AF99BDE39493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E008FA657E85EDD54C77721F /* Pods-BMI Calculator (No Storyboard).debug.xcconfig */,
+				CD6FF2E42FC190AC094DC065 /* Pods-BMI Calculator (No Storyboard).release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD2B621280725D4000803DB /* Build configuration list for PBXNativeTarget "BMI Calculator (No Storyboard)" */;
 			buildPhases = (
+				8ABB69B47D7EE31A5927E145 /* [CP] Check Pods Manifest.lock */,
 				1AD2B609280725D2000803DB /* Sources */,
 				1AD2B60A280725D2000803DB /* Frameworks */,
 				1AD2B60B280725D2000803DB /* Resources */,
+				0A705C136416B61ACCE60096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +172,69 @@
 			files = (
 				1AD2B61D280725D4000803DB /* LaunchScreen.storyboard in Resources */,
 				1AD2B61A280725D4000803DB /* Assets.xcassets in Resources */,
-				1AD2B618280725D2000803DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A705C136416B61ACCE60096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMI Calculator (No Storyboard)/Pods-BMI Calculator (No Storyboard)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMI Calculator (No Storyboard)/Pods-BMI Calculator (No Storyboard)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMI Calculator (No Storyboard)/Pods-BMI Calculator (No Storyboard)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABB69B47D7EE31A5927E145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMI Calculator (No Storyboard)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AD2B609280725D2000803DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3BE3BA280878E200B9DBEF /* ResultViewController.swift in Sources */,
+				1A3BE3BF2808B6E500B9DBEF /* BMI.swift in Sources */,
 				1AD2B615280725D2000803DB /* ViewController.swift in Sources */,
 				1AD2B611280725D2000803DB /* AppDelegate.swift in Sources */,
-				1AD2B613280725D2000803DB /* SceneDelegate.swift in Sources */,
+				1A3BE3C22808B83000B9DBEF /* BMIBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1AD2B616280725D2000803DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AD2B617280725D2000803DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1AD2B61B280725D4000803DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +362,7 @@
 		};
 		1AD2B622280725D4000803DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E008FA657E85EDD54C77721F /* Pods-BMI Calculator (No Storyboard).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +373,7 @@
 				INFOPLIST_FILE = "BMI Calculator (No Storyboard)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +391,7 @@
 		};
 		1AD2B623280725D4000803DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6FF2E42FC190AC094DC065 /* Pods-BMI Calculator (No Storyboard).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +402,7 @@
 				INFOPLIST_FILE = "BMI Calculator (No Storyboard)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
